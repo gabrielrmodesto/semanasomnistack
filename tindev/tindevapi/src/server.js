@@ -5,7 +5,7 @@ const cors = require('cors');
 
 const server = express();
 
-mongoose.connect('mongodb+srv://gabriel:g07t19c29@cluster0-bwpgm.mongodb.net/tindev?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://user:password@cluster0-bwpgm.mongodb.net/tindev?retryWrites=true&w=majority',{
     useNewUrlParser: true
 });
 
