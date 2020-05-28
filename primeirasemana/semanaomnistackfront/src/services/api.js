@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: "https://omnistackgabriel.herokuapp.com",
+  baseURL: "baseURL",
 });
 
 export default api;
